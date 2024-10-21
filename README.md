@@ -29,7 +29,11 @@ Follow the steps below to clone the repository and set up the project locally.
 <img width="1014" alt="Screenshot 2024-10-21 at 4 31 28 PM" src="https://github.com/user-attachments/assets/e827662b-9e47-49a9-ade4-ad614b0c3444">
 15. After login you should see a page
 <img width="1014" alt="Screenshot 2024-10-21 at 4 31 59 PM" src="https://github.com/user-attachments/assets/efafbd5a-6ee5-4690-904a-25f2936fee44">
+Note: If you change the application name in Django, you'll also need to update the INSTALLED_APPS section in the settings.py otherwise it will fail!
+<img width="614" alt="Screenshot 2024-10-21 at 4 42 46 PM" src="https://github.com/user-attachments/assets/066d26d3-490a-4508-aff1-00af7f6db28a">
 
+### Notes
+The HTML files are under /templates/gradetracker/, and urls.py routes to the views that render them. Right now, the logout function isn’t working, so that needs to be fixed.
 
+models.py defines the structure of the database, so spend some time getting familiar with how the data is modeled there. In admin.py, the models are registered so we can manage the database through the Django admin interface.
 
-   
