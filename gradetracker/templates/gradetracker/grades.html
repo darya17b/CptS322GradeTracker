@@ -1,0 +1,23 @@
+{% extends "gradetracker/base.html" %}
+
+{% block content %}
+<h2>Your Grades</h2>
+<table>
+    <tr>
+        <th>Assignment</th>
+        <th>Score</th>
+        <th>Feedback</th>
+    </tr>
+    {% for grade in grades %}
+    <tr>
+        <td>{{ grade.assignment.title }}</td>
+        <td>{{ grade.score }}</td>
+        <td>{{ grade.feedback }}</td>
+    </tr>
+    {% empty %}
+    <tr>
+        <td colspan="3">No grades available.</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}
