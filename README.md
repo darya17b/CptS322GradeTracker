@@ -15,7 +15,7 @@ Follow the steps below to clone the repository and set up the project locally.
 1. run: python3 manage.py migrate in the terminal
 2. <img width="859" alt="Screenshot 2024-10-21 at 4 20 25 PM" src="https://github.com/user-attachments/assets/c0de14fc-1f89-4d19-af1a-c0237c6928a5">
 3. Note : if python3 is not installed on your computer, use: python manage.py migrate instead!
-4. python3 manage.py createsuperuser
+4. python3 manage.py createsuperuser: Enter your username, email, and password
 5. <img width="859" alt="Screenshot 2024-10-21 at 4 23 31 PM" src="https://github.com/user-attachments/assets/df2e386d-5943-4f48-8dfb-3a127badf5cf">.
 6. Now run python3 manage.py runserver
 7. If you implemented successfully, you should see the following in the terminal:
