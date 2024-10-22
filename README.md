@@ -7,10 +7,12 @@ Follow the steps below to clone the repository and set up the project locally.
 4. Pull all the files: git pull origin feature/login_DB
 
 ## On VSCode Set Up a Virtual Environment
-1. pip install virtualenv
-2. virtualenv env\
-3. Activiate on Windows: env\Scripts\activate
-4. Activate on Mac: source env/bin/activate
+1. open the file on the vs code
+2.  <img width="879" alt="Screenshot 2024-10-21 at 5 24 44 PM" src="https://github.com/user-attachments/assets/d77c1cd6-5f71-4766-8ed9-e9e4d533f34a">
+3. in the terminal: pip install virtualenv
+4. virtualenv env\
+5. Activiate on Windows: env\Scripts\activate
+6. Activate on Mac: source env/bin/activate
 
 ## Install Django
 run: pip install django
