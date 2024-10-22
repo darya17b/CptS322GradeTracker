@@ -13,6 +13,7 @@ Follow the steps below to clone the repository and set up the project locally.
 
 ## Install Django
 run: pip install django
+
 if you get permission error: run with sudo pip install django
 
 ## Apply Migrations(setup the database)
