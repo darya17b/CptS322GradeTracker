@@ -11,6 +11,10 @@ Follow the steps below to clone the repository and set up the project locally.
 3. Activiate on Windows: env\Scripts\activate
 4. Activate on Mac: source env/bin/activate
 
+## Install Django
+run: pip install django
+if you get permission error: run with sudo pip install django
+
 ## Apply Migrations(setup the database)
 1. run: python3 manage.py migrate in the terminal
 2. <img width="859" alt="Screenshot 2024-10-21 at 4 20 25 PM" src="https://github.com/user-attachments/assets/c0de14fc-1f89-4d19-af1a-c0237c6928a5">
