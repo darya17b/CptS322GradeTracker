@@ -2,8 +2,9 @@
 Follow the steps below to clone the repository and set up the project locally.
 
 1. Clone the repository to your local file: git clone https://github.com/darya17b/CptS322GradeTracker.git
-2. Check out the branch: git checkout feature/login_DB
-3. Pull all the files: git pull origin feature/login_DB
+2. cd CptS322GradeTracker
+3. Check out the branch: git checkout feature/login_DB
+4. Pull all the files: git pull origin feature/login_DB
 
 ## On VSCode Set Up a Virtual Environment
 1. pip install virtualenv
