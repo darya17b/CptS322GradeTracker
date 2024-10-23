@@ -128,3 +128,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
  
 #redirect to the grades page
 LOGIN_REDIRECT_URL = '/grades/'  
+LOGOUT_REDIRECT_URL = 'login'
+
