@@ -1,0 +1,92 @@
+.over_flex{
+	display: flex;
+	flex-direction: row;
+  	align-items: flex-start;
+}
+
+.over_flex img{
+	width: 300px;
+	display: block; 
+}
+
+#logout_button{
+	position: absolute;
+    top: 400px; /* Position icon at the top-left corner */
+    left: 80px;
+    background-color: white;
+	width: 150px;
+	height: 60px;
+	text-align: center;
+	color: #442F91;
+	font-family: Roboto;
+	font-weight: 700;
+	font-size: 33px;
+	border-radius: 10px;
+	cursor: pointer;
+	border: 2px solid white;
+}
+
+#user_icon{
+	position: absolute;
+    top: 200px; /* Position icon at the top-left corner */
+    left: 110px;
+    width: 100px;
+}
+
+#courses{
+	display: flex;
+	margin-right: auto;
+	padding-top: 100px;
+	padding-left: 100px;
+}
+
+.over_flex_item_right{
+	display: flex;
+	flex-direction: column;
+}
+
+.over_flex_item_right h1{
+	font-family: Roboto;
+	font-weight: 700;
+	font-size: 62px;
+	color: #442F91;
+}
+
+.course_flex_box{
+	display: flex;
+	flex-direction: row;
+}
+
+#course_button{
+	background-color: #ED2B85;
+	width: 300px;
+	height: 120px;
+	text-align: center;
+	color: white;
+	font-family: Roboto;
+	font-weight: 700;
+	font-size: 34px;
+	border-radius: 10px;
+	cursor: pointer;
+	border: 2px solid white;
+	transition: background-color 0.3s;
+}
+
+#course_button:hover{
+	background-color: #4FC8EF;
+	color: white;
+	border-color: #4FC8EF;
+	box-shadow: none;
+	border: 2px solid #4FC8EF;
+}
+
+#course{
+	padding-right: 20px;
+}
+
+hr
+{
+	color: #442F91;
+	opacity: 24%;
+	margin-bottom: 25px;
+}
