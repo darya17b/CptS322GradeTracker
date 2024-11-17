@@ -1,0 +1,105 @@
+.over_flex{
+	display: flex;
+	flex-direction: row;
+  	align-items: flex-start;
+}
+
+.over_flex img{
+	width: 300px;
+	display: block; 
+}
+
+#logout_button{
+	position: absolute;
+    top: 400px; /* Position icon at the top-left corner */
+    left: 80px;
+    background-color: white;
+	width: 150px;
+	height: 60px;
+	text-align: center;
+	color: #442F91;
+	font-family: Roboto;
+	font-weight: 700;
+	font-size: 33px;
+	border-radius: 10px;
+	cursor: pointer;
+	border: 2px solid white;
+}
+
+#user_icon{
+	position: absolute;
+    top: 200px; /* Position icon at the top-left corner */
+    left: 110px;
+    width: 100px;
+}
+
+#course{
+	display: flex;
+	margin-right: auto;
+	padding-top: 100px;
+	padding-left: 100px;
+}
+
+.over_flex_item_right{
+	display: flex;
+	flex-direction: column;
+}
+
+.assignment h2{
+	font-family: Roboto;
+	color: #442F91;
+	font-weight: 700;
+	font-size: 33px;
+}
+
+h1{
+	font-family: Roboto;
+	color: #442F91;
+	font-weight: 700;
+	font-size: 40px;
+}
+
+hr {
+    width: 100%;            
+    height: 1px;            
+    background-color: #442F91;
+    opacity: 24%;
+    border: none;           
+    margin: 20px 0;        
+ }
+
+ .assignment h3{
+ 	font-family: Roboto;
+	color: #442F91;
+	font-weight: 300;
+	font-size: 24px;
+ }
+
+ .comment_box{
+ 	border: 2px solid #ED2B85;
+ 	text-align: left;
+ 	padding-left: 20px;
+ }
+
+ #back_button{
+	background-color: #ED2B85;
+	width: 300px;
+	height: 60px;
+	text-align: center;
+	color: white;
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 24px;
+	border-radius: 10px;
+	cursor: pointer;
+	border: 2px solid white;
+	transition: background-color 0.3s;
+}
+
+#back_button:hover{
+	background-color: #4FC8EF;
+	color: white;
+	border-color: #4FC8EF;
+	box-shadow: none;
+	border: 2px solid #4FC8EF;
+}

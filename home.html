@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<!-- meta tags and title -->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>GradeHero: Never Slip on Your Classes</title>
+		<link rel="shortcut icon" type="image/png" href="logocutout-01.png"/>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Silkscreen&display=swap" rel="stylesheet">
+
+
+		<!-- external and on-page CSS goes here -->
+		<link rel="stylesheet" href="home_styles.css" media="all">
+		<style>
+			/* on-page CSS, if any, goes here -- otherwise delete this section */
+		</style>
+
+		<!-- external and on-page JavaScript goes here -->
+		<script src="https://kit.fontawesome.com/dc4b9d6624.js" crossorigin="anonymous"></script>
+		<script>
+			// on-page JavaScript, if any, goes here -- otherwise delete this section
+		</script>
+
+	</head>
+	<body>
+		<div class="over_flex">
+
+      <div class="over_flex_item" id="sidebar">
+        <img src="sidebar_graphic-01.png" alt="Gradient Graphic">
+        <img src="user_icon-01.png" id="user_icon">
+        <button type="button" id="logout_button">Logout</button>
+      </div>
+
+
+      <div class="over_flex_item_right" id="courses">
+        <h1>Courses</h1>
+        <hr>
+        <div class="course_flex_box">
+     
+          <div id="course">
+            <button type="button" id="course_button">
+            	{{ course.name }} <br> {{ course.code }}
+            </button>
+          </div>
+         
+        </div>
+
+      </div>
+
+    </div>
+	</body>
+	
+</html>

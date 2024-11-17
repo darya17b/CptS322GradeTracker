@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<!-- meta tags and title -->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>GradeHero: Never Slip on Your Classes</title>
+		<link rel="shortcut icon" type="image/png" href="logocutout-01.png"/>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Silkscreen&display=swap" rel="stylesheet">
+
+
+		<!-- external and on-page CSS goes here -->
+		<link rel="stylesheet" href="grade_cal_styles.css" media="all">
+		<style>
+			/* on-page CSS, if any, goes here -- otherwise delete this section */
+		</style>
+
+		<!-- external and on-page JavaScript goes here -->
+		<script src="https://kit.fontawesome.com/dc4b9d6624.js" crossorigin="anonymous"></script>
+		<script>
+			// on-page JavaScript, if any, goes here -- otherwise delete this section
+		</script>
+
+	</head>
+	<body>
+    <img src="add_background-01.png" alt="Gradient Graphic" id="background_graphic">
+    <div id="content_block">
+		<form action="{% url 'FILL LATER' %}" method="POST">
+            <div id="labell">
+              <label for="current_grade">Enter Current Grade for Class:</label>
+            </div>
+            <br>
+            <div id="inputt">
+                <input type="number" id="current_grade" name="current_grade" min="0" max="100" step="1" required>
+              </div>
+              <br>
+              <div id="labell">
+                <label for="desired_grade">Enter your desired grade:</label>
+              </div>
+              <br>
+              <div id="inputt">
+                <input type="number" id="desired_grade" name="desired_grade" min="0" max="100" step="1" required>
+              </div>
+              <br>
+              <div id="labell">
+                <label for="weight">Enter weight of final exam:</label>
+              </div>
+              <br>
+              <div id="inputt">
+                <input type="number" id="weight" name="weight" min="0" max="100" step="1" required>
+              </div>
+              <br>
+              <button type="submit" id="submit_button">Calculate what I need!</button>
+    </form>
+    <h1>Grade needed on final:</h1> 
+    <p>{{ grade_needed|floatformat:2 }}</p>
+  </div>
+	</body>
+	
+</html>
